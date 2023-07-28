@@ -48,7 +48,7 @@ body {
 h1 {
     position: relative;
     color: #fff;
-    left: 50%;
+    left: 84%;
     transform: translateX(-50%);
 }
 
@@ -196,7 +196,7 @@ h1 {
     transform: scale(0.90);
 }
 
-/* Media Queries */
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 24px;
@@ -238,13 +238,13 @@ h1 {
       flex-direction: column;
       align-items: center;
       height: auto;
-      margin-bottom: -50px; /* Offset the margin-top change to maintain spacing */
+      margin-bottom: -50px;
     }
   
     .game button {
       margin-right: 0;
-      margin-top: 200px; /* Adjusted margin to move the buttons down */
-      margin-bottom: -150px; /* Maintain consistent spacing between buttons */
+      margin-top: 200px; 
+      margin-bottom: -150px; 
     }
   
     .reset {
@@ -295,14 +295,7 @@ h1 {
         font-weight: 500;
     }
   }
-  @media screen and (max-width: 1290px) {
-    h1 {
-      position: absolute;
-      font-size: 20px;
-      margin-bottom: 250px;
-      margin-left: -10px;
-    }
-  }
+  
   @media screen and (max-width: 420px) {
     h1 {
         position: absolute;
@@ -311,20 +304,7 @@ h1 {
         margin-left: 40px;
       }
   }
-  @media screen and (max-height: 1024px) {
-    .reset {
-        position: absolute;
-        top: 0;
-        margin: 10px;
-        margin-left: 10px;
-        margin-top: 170px;
-        background-color: transparent;
-      }
-    
-      .reset button {
-        width: 100px;
-      }
-  }
+ 
  
 
   
